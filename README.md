@@ -38,4 +38,4 @@ export default {
 
 ### 示例图片
 
-![image](https://github.com/zhaochengxian/cityTable/blob/ed34324f231525380e7e2059d08d4ef46ec711bd/examples/assets/demo-img.jpeg)
+![image](https://github.com/zhaochengxian/cityTable/blob/16250a33d0dec558739b20ebf475d53008e33f93/examples/assets/demo-img.jpeg)
