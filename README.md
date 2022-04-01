@@ -1,24 +1,41 @@
-# jiba
+# city-table
 
-## Project setup
-```
-yarn install
-```
+## how to use
 
-### Compiles and hot-reloads for development
 ```
-yarn serve
+yarn add @banyinbanying/city-table or npm i @banyinbanying/city-table
 ```
 
-### Compiles and minifies for production
+### then you add this two line in vue main.js
+
 ```
-yarn build
+import CityTable from "../packages/index";
+Vue.use(CityTable);
 ```
 
-### Lints and fixes files
+### after you can use it in component like this
+
 ```
-yarn lint
+<template>
+  <div id="app">
+    <cityTable></cityTable>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "App",
+};
+</script>
+
+<style></style>
+
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### the code and the demo in github
+
+[Configuration Reference](https://github.com/zhaochengxian/cityTable).
+
+```
+
+```
