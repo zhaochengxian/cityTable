@@ -36,6 +36,8 @@ export default {
 
 [Configuration Reference](https://github.com/zhaochengxian/cityTable).
 
-```
+### 示例图片
 
+```
+![image](https://github.com/zhaochengxian/cityTable/tree/main/examples/assets/demo-img.jpeg)
 ```
