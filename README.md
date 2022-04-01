@@ -38,5 +38,5 @@ export default {
 
 ### 示例图片
 
-![image](https://github.com/zhaochengxian/cityTable/tree/main/examples/assets/demo-img.jpeg)
+![image](https://github.com/zhaochengxian/cityTable/blob/ed34324f231525380e7e2059d08d4ef46ec711bd/examples/assets/demo-img.jpeg)
 
