@@ -1,0 +1,649 @@
+{
+    "code": 200,
+    "msg": "请求成功",
+    "data": {
+        "areaList": [
+            {
+                "area": "山东省",
+                "sonAreaList": [
+                    {
+                        "area": "莱芜市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "日照市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "临沂市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "淄博市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "威海市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "枣庄市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "东营市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "烟台市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "潍坊市",
+                        "sonAreaList": []
+                    }
+                ]
+            },
+            {
+                "area": "河北省",
+                "sonAreaList": [
+                    {
+                        "area": "石家庄市",
+                        "sonAreaList": [
+                            {
+                                "area": "市辖区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "长安区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "桥西区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "新华区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "井陉矿区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "裕华区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "藁城区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "鹿泉区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "高邑县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "深泽县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "赞皇县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "无极县",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "邯郸市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "唐山市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "秦皇岛市",
+                        "sonAreaList": []
+                    }
+                ]
+            },
+            {
+                "area": "江苏省",
+                "sonAreaList": [
+                    {
+                        "area": "盐城市",
+                        "sonAreaList": [
+                            {
+                                "area": "市辖区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "亭湖区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "盐都区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "大丰区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "响水县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "滨海县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "阜宁县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "射阳县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "建湖县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "东台市",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "连云港市",
+                        "sonAreaList": [
+                            {
+                                "area": "市辖区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "连云区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "海州区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "赣榆区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "东海县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "灌云县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "灌南县",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "苏州市",
+                        "sonAreaList": [
+                            {
+                                "area": "市辖区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "虎丘区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "吴中区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "相城区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "姑苏区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "吴江区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "常熟市",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "张家港市",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "昆山市",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "太仓市",
+                                "sonAreaList": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "area": "辽宁省",
+                "sonAreaList": []
+            },
+            {
+                "area": "吉林省",
+                "sonAreaList": []
+            },
+            {
+                "area": "福建省",
+                "sonAreaList": [
+                    {
+                        "area": "南平市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "龙岩市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "厦门市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "莆田市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "三明市",
+                        "sonAreaList": []
+                    }
+                ]
+            },
+            {
+                "area": "浙江省",
+                "sonAreaList": [
+                    {
+                        "area": "杭州市",
+                        "sonAreaList": [
+                            {
+                                "area": "市辖区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "上城区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "下城区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "江干区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "拱墅区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "西湖区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "滨江区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "萧山区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "余杭区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "富阳区",
+                                "sonAreaList": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "area": "湖北省",
+                "sonAreaList": [
+                    {
+                        "area": "宜昌市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "孝感市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "荆门市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "鄂州市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "咸宁市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "黄冈市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "荆州市",
+                        "sonAreaList": []
+                    }
+                ]
+            },
+            {
+                "area": "上海市",
+                "sonAreaList": []
+            },
+            {
+                "area": "山西省",
+                "sonAreaList": []
+            },
+            {
+                "area": "江西省",
+                "sonAreaList": [
+                    {
+                        "area": "萍乡市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "九江市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "抚州市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "宜春市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "吉安市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "新余市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "鹰潭市",
+                        "sonAreaList": []
+                    }
+                ]
+            },
+            {
+                "area": "天津市",
+                "sonAreaList": [
+                    {
+                        "area": "市辖区",
+                        "sonAreaList": [
+                            {
+                                "area": "和平区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "河东区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "河西区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "南开区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "东丽区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "西青区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "津南区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "北辰区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "武清区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "宁河区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "静海区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "蓟州区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "滨海新区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "宝坻区",
+                                "sonAreaList": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "area": "黑龙江省",
+                "sonAreaList": []
+            },
+            {
+                "area": "河南省",
+                "sonAreaList": [
+                    {
+                        "area": "焦作市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "濮阳市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "信阳市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "商丘市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "漯河市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "南阳市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "三门峡市",
+                        "sonAreaList": []
+                    }
+                ]
+            },
+            {
+                "area": "新疆维吾尔自治区",
+                "sonAreaList": [
+                    {
+                        "area": "哈密市",
+                        "sonAreaList": []
+                    },
+                    {
+                        "area": "喀什地区",
+                        "sonAreaList": [
+                            {
+                                "area": "麦盖提县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "叶城县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "岳普湖县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "伽师县",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "巴楚县",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "克拉玛依市",
+                        "sonAreaList": [
+                            {
+                                "area": "独山子区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "克拉玛依区",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "乌鲁木齐市",
+                        "sonAreaList": [
+                            {
+                                "area": "沙依巴克区",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "乌鲁木齐县",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "巴音郭楞蒙古自治州",
+                        "sonAreaList": [
+                            {
+                                "area": "焉耆回族自治县",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "阿克苏地区",
+                        "sonAreaList": [
+                            {
+                                "area": "阿克苏市",
+                                "sonAreaList": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "area": "内蒙古自治区",
+                "sonAreaList": [
+                    {
+                        "area": "鄂尔多斯市",
+                        "sonAreaList": [
+                            {
+                                "area": "鄂托克前旗",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "伊金霍洛旗",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "呼伦贝尔市",
+                        "sonAreaList": [
+                            {
+                                "area": "莫力达瓦达斡尔族自治旗",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "鄂伦春自治旗",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "鄂温克族自治旗",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "陈巴尔虎旗",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "新巴尔虎左旗",
+                                "sonAreaList": null
+                            },
+                            {
+                                "area": "新巴尔虎右旗",
+                                "sonAreaList": null
+                            }
+                        ]
+                    },
+                    {
+                        "area": "呼和浩特市",
+                        "sonAreaList": [
+                            {
+                                "area": "土默特左旗",
+                                "sonAreaList": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "area": "安徽省",
+                "sonAreaList": []
+            },
+            {
+                "area": "西藏自治区",
+                "sonAreaList": []
+            }
+        ]
+    }
+}
