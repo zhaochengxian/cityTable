@@ -39,3 +39,15 @@ export default {
 ### 示例图片
 
 ![image](https://github.com/zhaochengxian/cityTable/blob/ed34324f231525380e7e2059d08d4ef46ec711bd/examples/assets/demo-img.jpeg)
+
+### Props
+
+The component provides the following variables
+
+| Name       | Type   | Default Value | Description |
+| ---------- | ------ | ------------- | ----------- |
+| data       | Array  | tree          | -           |
+| padding    | Number | 5px           | -           |
+| fontSize   | String | 14px          | -           |
+| theadColor | String | #777777       | -           |
+| tbodyColor | String | #999999       | -           |

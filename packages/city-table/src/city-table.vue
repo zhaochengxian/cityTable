@@ -1,13 +1,22 @@
 <template>
-  <div class="table">
+  <div class="table" :style="{ fontSize: fontSize + 'px' }">
     <div>
       <div class="tr">
-        <div class="th">省</div>
-        <div class="th">市</div>
-        <div class="th">区</div>
+        <div
+          class="th"
+          v-for="item in tableThs"
+          :key="item.name"
+          :style="{
+            fontSize: fontSize + 'px',
+            padding: padding + 'px' + ' 0px',
+            color: theadColor,
+          }"
+        >
+          {{ item.name }}
+        </div>
       </div>
-      <div class="tbody">
-        <div class="provice" v-for="item in areaList" :key="item.area">
+      <div class="tbody" :style="{ color: tbodyColor }">
+        <div class="provice" v-for="item in data" :key="item.area">
           <div class="provic-name">{{ item.area }}</div>
           <div class="city-wrapper">
             <div
@@ -22,7 +31,15 @@
                   v-for="val in value.sonAreaList"
                   :key="val.area"
                 >
-                  <div class="area-name">{{ val.area }}</div>
+                  <div
+                    class="area-name"
+                    :style="{
+                      fontSize: fontSize + 'px',
+                      padding: padding + 'px',
+                    }"
+                  >
+                    {{ val.area }}
+                  </div>
                 </div>
               </div>
             </div>
@@ -34,13 +51,40 @@
 </template>
 
 <script>
-import CityJson from "./city.json";
 export default {
   name: "cityTable",
+  props: {
+    data: Array,
+    padding: {
+      type: Number,
+      default: 5,
+    },
+    fontSize: {
+      type: String,
+      default: "14",
+    },
+    theadColor: {
+      type: String,
+      default: "#777777",
+    },
+    tbodyColor: {
+      type: String,
+      default: "#999999",
+    },
+  },
   data() {
     return {
-      mobileType: "",
-      areaList: [],
+      tableThs: [
+        {
+          name: "省",
+        },
+        {
+          name: "市",
+        },
+        {
+          name: "区",
+        },
+      ],
     };
   },
   methods: {
@@ -57,8 +101,7 @@ export default {
     },
   },
   created() {
-    const { areaList } = CityJson.data;
-    areaList.map((item) => {
+    this.data.map((item) => {
       if (item.sonAreaList.length === 0) {
         item.sonAreaList = [
           {
@@ -77,8 +120,6 @@ export default {
 
       return item;
     });
-
-    this.areaList = areaList;
   },
 };
 </script>
@@ -87,8 +128,6 @@ export default {
 .table {
   min-height: 100%;
   background: #ffffff;
-  font-size: 14px;
-  color: #999999;
   background: #ffffff;
   overflow: scroll;
   .tr {
@@ -97,12 +136,10 @@ export default {
   }
   .th {
     font-weight: 600;
-    color: #777777;
     width: calc(33vw - 8px);
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 4px 0;
   }
   .th:nth-child(1),
   .th:nth-child(2) {
@@ -145,7 +182,6 @@ export default {
       display: flex;
       justify-content: center;
       align-items: center;
-      padding: 4px 0;
     }
   }
 }
