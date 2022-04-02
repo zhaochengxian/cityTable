@@ -1,9 +1,14 @@
 # city-table
-
-## how to use
+<p>This component returns the provincial and urban data of a tree from the back end, which is displayed in the form of a table. In addition, the provincial and urban areas are multi selected, and vue2.0 is supported at the same time 0 and vue3 0 If you use Vue version is vue2 0, you need to install the corresponding version 1.0.5 of @ banyinanying / city table. If you use vue3.0 0. You need to install version 3.0.0 corresponding to @ banyinanying / city table</p>
+## how to use （vue3.0）
 
 ```
-yarn add @banyinbanying/city-table or npm i @banyinbanying/city-table
+yarn add @banyinbanying/city-table or npm i @banyinbanying/city-table 
+```
+## how to use （vue2.0）
+
+```
+yarn add @banyinbanying/city-table@1.0.5 or npm i @banyinbanying/city-table@1.0.5
 ```
 
 ### then you add this two line in vue main.js
