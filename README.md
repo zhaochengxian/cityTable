@@ -59,3 +59,12 @@ The component provides the following variables
 | fontSize   | String | 14px          | -           |
 | theadColor | String | #777777       | -           |
 | tbodyColor | String | #999999       | -           |
+
+
+### Matching selection components（Multiple-city-react）示范图片
+![image](https://github.com/zhaochengxian/cityTable/blob/9d0e89436fa72039a5d2d7c1f61b5da8ebc087c5/examples/assets/1.png)
+
+### the code and the demo of Multiple-city-react 
+
+[Configuration Reference](https://github.com/zhaochengxian/multiple-citys-react).
+
