@@ -1,6 +1,6 @@
 {
     "name": "@banyinbanying/city-table",
-    "version": "1.0.5",
+    "version": "3.0.0",
     "private": false,
     "keywords": [
         "city-table"
@@ -8,18 +8,20 @@
     "author": "zhaochengxian",
     "license": "ISC",
     "main": "lib/cityTable.umd.min.js",
-    "description": "this is display Provincial and urban areas as table",
+    "description": "this is display Provincial and urban areas as table for vue3",
     "scripts": {
         "serve": "vue-cli-service serve",
         "build": "vue-cli-service build",
         "lint": "vue-cli-service lint",
-        "lib": "vue-cli-service build --target lib --name cityTable --dest lib packages/city-table/index.js"
+        "lib": "vue-cli-service build --target lib --name cityTable --dest lib packages/city-table/index.js",
+        "version": "node script/create.js"
+    },
+    "bin": {
+        "vue": "bin/vue.js"
     },
     "dependencies": {
         "core-js": "^3.8.3",
-        "sass": "^1.49.10",
-        "sass-loader": "^12.6.0",
-        "vue": "^2.6.14"
+        "vue": "^3.2.31"
     },
     "devDependencies": {
         "@babel/core": "^7.12.16",
@@ -27,8 +29,12 @@
         "@vue/cli-plugin-babel": "~5.0.0",
         "@vue/cli-plugin-eslint": "~5.0.0",
         "@vue/cli-service": "~5.0.0",
+        "child_process": "^1.0.2",
         "eslint": "^7.32.0",
         "eslint-plugin-vue": "^8.0.3",
+        "inquirer": "^8.2.2",
+        "sass": "^1.49.10",
+        "sass-loader": "^12.6.0",
         "vue-template-compiler": "^2.6.14"
     },
     "eslintConfig": {
