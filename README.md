@@ -42,7 +42,7 @@ export default {
 
 ### the code and the demo in github
 
-[Configuration Reference](https://github.com/zhaochengxian/cityTable).
+[github](https://github.com/zhaochengxian/cityTable).
 
 ### 示例图片
 
@@ -66,5 +66,5 @@ The component provides the following variables
 
 ### the code and the demo of Multiple-city-react 
 
-[Configuration Reference](https://github.com/zhaochengxian/multiple-citys-react).
+[github](https://github.com/zhaochengxian/multiple-citys-react).
 
