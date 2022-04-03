@@ -17,8 +17,13 @@ yarn add @banyinbanying/city-table@1.0.5 or npm i @banyinbanying/city-table@1.0.
 ### then you add this two line in vue main.js
 
 ```
-import CityTable from "../packages/index";
+import CityTable from "@banyinbanying/city-table@1.0.5"
 Vue.use(CityTable);
+////vue3.0
+import CityTable from "@banyinbanying/city-table"
+const app = createApp(App);
+app.use(CityTable);
+app.mount("#app");
 ```
 
 ### after you can use it in component like this
